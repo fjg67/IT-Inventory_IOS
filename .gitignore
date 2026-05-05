@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# Build artifacts
+DerivedData/
+build/
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Env files
+Config/Secrets.xcconfig
