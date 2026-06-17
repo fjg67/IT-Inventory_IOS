@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistance - IT Inventory</title>
+    <style>
+        :root {
+            --ca-green: #007A5E; /* Vert officiel CA */
+            --ca-green-light: #E6F2EF;
+            --ca-text: #1C1C1E;
+            --ca-text-muted: #6B6B68;
+            --ca-bg: #F8FAF6;
+            --ca-card: #FFFFFF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--ca-text);
+            background-color: var(--ca-bg);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--ca-green);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 122, 94, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: -2rem auto 2rem;
+            background: var(--ca-card);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+            position: relative;
+        }
+
+        h2 {
+            color: var(--ca-green);
+            margin-top: 2rem;
+            border-bottom: 2px solid var(--ca-green-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .contact-box {
+            background-color: var(--ca-green-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--ca-green);
+            margin: 1.5rem 0;
+            font-size: 1.1rem;
+        }
+
+        .contact-box strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--ca-green);
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: var(--ca-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-answer {
+            color: var(--ca-text-muted);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--ca-text-muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IT Inventory</h1>
+        <p>Assistance et Support Technique</p>
+    </header>
+
+    <div class="container">
+        <p>Bienvenue sur la page d'assistance de l'application <strong>IT Inventory</strong>. Cette application est exclusivement réservée à un usage interne pour la gestion de parc informatique.</p>
+
+        <h2>Comment pouvons-nous vous aider ?</h2>
+        
+        <div class="contact-box">
+            <strong>Contactez le support IT</strong>
+            En cas de problème technique, de demande d'accès ou pour signaler un bug dans l'application, veuillez contacter votre administrateur ou le service informatique interne :
+            <br><br>
+            ✉️ Email : support-it@credit-agricole.fr<br>
+            📞 Téléphone interne : Ligne support technique
+        </div>
+
+        <h2>Foire Aux Questions (FAQ)</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">Comment obtenir mes identifiants de connexion ?</div>
+            <div class="faq-answer">L'accès à l'application est restreint aux techniciens et gestionnaires de parc. Veuillez faire une demande d'accès auprès de votre responsable informatique qui vous fournira votre mot de passe.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Le scan de code-barres ne fonctionne pas, que faire ?</div>
+            <div class="faq-answer">Assurez-vous d'avoir autorisé l'application à utiliser l'appareil photo dans les réglages de votre iPhone (Réglages > IT Inventory > Appareil photo). Veillez également à scanner le code-barres dans un environnement suffisamment éclairé.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Les modifications de stock ne s'affichent pas ?</div>
+            <div class="faq-answer">Vérifiez que votre iPhone est bien connecté à Internet (Wi-Fi ou 4G/5G). L'application nécessite une connexion réseau pour synchroniser les données avec la base centrale en temps réel.</div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 IT Inventory. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
